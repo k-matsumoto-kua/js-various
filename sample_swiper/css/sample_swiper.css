@@ -1,0 +1,37 @@
+
+.swiper {
+  width: 100vw;
+  height: 100vh;
+}
+
+.swiper-slide{
+  background-color: #ccc;
+  color: #fff;
+  font-size: 3em;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner_txt{
+  opacity: 0;
+  transition: 0.5s all;
+}
+
+.swiper-slide-active .inner_txt{
+  opacity: 1;
+  transition-delay: 1s;
+}
+
+#slide01{
+  background-color: #ed8f32;
+}
+
+#slide02{
+  background-color: #6432ed;
+}
+
+#slide03{
+  background-color: #ed32b2;
+}

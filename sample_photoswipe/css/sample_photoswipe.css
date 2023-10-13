@@ -1,0 +1,43 @@
+body{
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+}
+
+.wrapper{
+  padding: 20px;
+}
+
+li{
+  list-style: none;
+}
+
+.pics_list{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px;
+  margin: 20px auto;
+  max-width: 1000px;
+}
+
+.pics_list li{
+  width: calc(20% - 2px);
+  aspect-ratio: 1 / 1;
+}
+
+.pics_list li a{
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: #f00;
+}
+
+
+.pics_list li img{
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+  display: none;
+}
