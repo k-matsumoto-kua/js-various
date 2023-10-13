@@ -1,0 +1,36 @@
+
+
+.pics{
+  position: absolute;
+}
+
+.pic{
+  position: absolute;
+  opacity: 0;
+}
+
+.pic.show{
+  display: block;
+  opacity: 1;
+}
+
+#pics01{
+  top: 100px;
+  left: 100px;
+  width: 200px;
+  height: 200px;
+}
+
+#pics02{
+  top: 300px;
+  left: 400px;
+  width: 200px;
+  height: 200px;
+}
+
+.pics img{
+  display: block;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+}

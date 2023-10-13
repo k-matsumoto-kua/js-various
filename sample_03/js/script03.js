@@ -1,4 +1,3 @@
-$(function(){
 
   let date;
   let hour;
@@ -68,4 +67,3 @@ $(function(){
     return (hour+"").padStart(2, '0') + ':' +(min+"").padStart(2, '0')+ ':' +(sec+"").padStart(2, '0')
   }
 
-})

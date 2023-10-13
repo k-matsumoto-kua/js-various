@@ -1,4 +1,3 @@
-$(function(){
 
   let windowH
   let documentH 
@@ -15,7 +14,7 @@ $(function(){
     scrollTop = $(this).scrollTop()//何ピクセルスクロールしたか
     scrollRatio = scrollTop/(documentH-windowH)//どれくらいスクロールされたか0から1
     
-    separate = documentH / 3;//内容の高さを3分割した数値
+    separate = documentH / 3//内容の高さを3分割した数値
 
     //３分割した数値とどれだけスクロールしたかを比較→bodyにクラスをつける。あとはCSSファイルでデザイン変更
     if(scrollTop < separate){
@@ -49,4 +48,3 @@ $(function(){
 
 
 
-})

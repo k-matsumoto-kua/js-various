@@ -1,3 +1,4 @@
+//https://swiperjs.com/get-started#initialize-swiper
 let swiper = new Swiper('.swiper', {
   loop: true,
   pagination: {
@@ -9,7 +10,7 @@ let swiper = new Swiper('.swiper', {
   }
 });
 
-//スライドしたら音源を変更
+//スライドしたら音源を変更 https://swiperjs.com/swiper-api#events
 swiper.on('realIndexChange', function () {
   soundPlay(swiper.realIndex)
 });

@@ -1,4 +1,3 @@
-$(function(){
 
   $("#intro p").hide().fadeIn(1000)
   //setTimeout(introAnime,2000);//2秒経った時にintroAnimeを実行
@@ -33,4 +32,3 @@ $(function(){
     $("#food").addClass("anime")
   }
 
-})
