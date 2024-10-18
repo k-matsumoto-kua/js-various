@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <main>
+    <!-- SLIDER -->
+    <section class="description">
+      <div class="container">
+        <h2>途中から横スクロール</h2>
+        <p>横スクロール中はパララックス</p>
+      </div>
+    </section>
+    <div class="vertical-slider__wrap">
+      <div class="proxy"></div>
+      <section class="vertical-area teal">
+        <div class="img-wrap">
+          <div class="mask"></div>
+          <img src="../dummy_images/dummy_01.jpg" alt="" class="js-img">
+          <div class="heading-wrap"><h2>Sample text01</h2></div>
+        </div>
+      </section>
+      <section class="vertical-area maroon">
+        <div class="img-wrap">
+          <div class="mask"></div>
+          <img src="../dummy_images/dummy_02.jpg" alt="" class="js-img img2">
+          <div class="heading-wrap"><h2>Sample text02</h2></div>
+        </div>
+      </section>
+      <section class="vertical-area olive">
+        <div class="img-wrap">
+          <div class="mask"></div>
+          <img src="../dummy_images/dummy_03.jpg" alt="" class="js-img img3">
+          <div class="heading-wrap"><h2>Sample text03</h2></div>
+        </div>
+      </section>
+    </div>
+    <section class="last-area">
+      <h2>横スクロール終了</h2>
+    </section>
+    
+    <!-- END SLIDER -->
+  </main>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/Draggable.min.js"></script>
+<script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>サイト</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lity/2.4.1/lity.min.css"/>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+  
+  <div class="all">
+    <a href="#inline1" data-lity><img src="../dummy_images/dummy_01.jpg"></a>
+    <a href="#inline2" data-lity><img src="../dummy_images/dummy_02.jpg"></a>
+    <a href="#inline3" data-lity><img src="../dummy_images/dummy_03.jpg"></a>
+    <a href="#inline4" data-lity><img src="../dummy_images/dummy_04.jpg"></a>
+  </div>
+
+  <div id="inline1" class="lity-hide">
+    <div class="card">
+      <div class="card_img"><img src="../dummy_images/dummy_01.jpg"></div>
+      <div class="card_info">illust01</div>
+    </div>
+  </div>
+
+  <div id="inline2" class="lity-hide">
+    <div class="card">
+      <div class="card_img"><img src="../dummy_images/dummy_02.jpg"></div>
+      <div class="card_info">illust02</div>
+    </div>
+  </div>
+
+  <div id="inline3" class="lity-hide">
+    <div class="card">
+      <div class="card_img"><img src="../dummy_images/dummy_03.jpg"></div>
+      <div class="card_info">illust03</div>
+    </div>
+  </div>
+
+  <div id="inline4" class="lity-hide">
+    <div class="card">
+      <div class="card_img"><img src="../dummy_images/dummy_04.jpg"></div>
+      <div class="card_info">illust04</div>
+    </div>
+  </div>
+
+  <!-- 必要なライブラリをネット上から直接参照 CDN -->
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lity/2.4.1/lity.min.js"></script>
+  <!-- 自分のjs -->
+  <script src="./js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,68 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img{
+  max-width: 100%;
+}
+
+/* =================================================
+
+================================================= */
+
+.all{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.all a{
+  display: block;
+  border: 1px solid #c434ac;
+  margin: 20px;
+}
+
+.all a img{
+  display: block;
+}
+
+.lity{
+  background-color: #ed3dd09a;
+}
+
+.lity-wrap{
+
+}
+
+.lity-content{
+
+}
+
+.lity-content img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.card_img{
+  width: 100%;
+  height: 90%;
+}
+
+.card_info{
+  padding: 10px;
+  border-top: 1px solid #fff;
+  text-align: center;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+}
+
+.card{
+  border: 1px solid #fff;
+  height: 90vh;
+  overflow: hidden;
+  position: relative;
+}
